@@ -1,0 +1,54 @@
+#reach{
+    border-bottom: 15px solid white;
+    margin-top: 5%;
+    margin-left: -5px;
+    background-color:black;
+    color:white;
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+    letter-spacing: .5px;
+}
+#cntc{
+    margin-top: 4% !important;
+}
+#reach i{
+  
+    margin: auto;
+    margin-right: 5px;
+}
+#icons{
+    margin-left: 10px;
+    margin-top: 15px;
+    letter-spacing: 5px;
+}
+a{
+cursor: pointer;
+color:white;
+    margin-left: -10px;
+}
+a:hover{
+    cursor: pointer;
+    margin-left: -10px;
+    color:dodgerblue;
+    transition: 200ms;
+}
+.home{
+    margin-left: 10px;
+    padding-top: 10px; 
+    text-align: center;
+}
+.home i:hover{
+    color:dodgerblue;
+    
+}
+.home a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+.buttons{
+   display: -webkit-box;
+    -webkit-box-orient:horizontal;
+    -webkit-box-pack:start;
+    width: 50%;
+}

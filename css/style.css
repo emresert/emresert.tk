@@ -1,0 +1,227 @@
+body{
+    background-color: ghostwhite;
+}
+.navbar{
+    border-top : 1px solid black;
+    border-bottom : 0.1px solid whitesmoke;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 14.3px;
+    background-color: rgba(0,0,0,1) !important;  
+    margin-top: 9px;    
+}
+.namejob{
+    display: -webkit-box;
+    -webkit-box-orient:horizontal;
+    height:70px;
+    margin-top: -15px;  
+   
+}
+.pfoto{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border: 0px solid black ;
+    border-radius: 50%;
+    box-shadow: 0px 0px 1px 2px black;
+    z-index: 1;
+}
+.container li{
+    color: darkgray; 
+    margin-top: 3px;
+}
+.container a{
+color:darkgray!important;
+margin: auto !important;
+}
+.container a:hover{
+    color: white !important;
+    text-shadow: 0px 0px 10px white;
+    margin:auto;
+    transition: 500ms;
+    transition-property: all;
+}
+.list-unstyled{
+    margin-top: 17px;
+    margin-left: 12px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+#headerSection{
+    background: url('../images/rb3.jpg') center center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    transition: 0500ms;
+    transition-property: all;
+}
+#headerSection .overlay{
+   background-color:rgba(0,0,0,0.6);
+}
+#headerSection .row{
+    height: 100vh;
+}
+#headerSection .col p{
+margin-top: 39%;  
+}
+#infomarq{
+    width:59%;
+    margin-top: -10px; 
+    margin-left: 22%;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-family: 'Vollkorn', serif;
+    font-size: 15px;
+    word-spacing: 2px;
+    letter-spacing: 1.5px;
+    
+}
+#headerSection .text-center{
+    font-family: 'Berkshire Swash', cursive;
+    letter-spacing: 11px;
+    color: ghostwhite;
+    text-shadow: 1px 1px 2px black;
+    font-style: italic;   
+    font-size:2.2em;
+    margin-left: 2% !important;
+}
+#aboutme{
+border-top: 7px solid white;
+background-color: rgba(0,0,0,1);
+color:gray;
+font-weight: 500;
+
+}
+#aboutme .img-fluid{
+    border:1px solid transparent;
+    border-radius: 8px;
+    width: 80%;
+    margin-left:10%;
+}
+.WhoamI{
+    font-family: 'Peddana',sans-serif;
+    color:white; 
+    text-align: left; 
+    margin-top: 15px;
+    letter-spacing: 3px;
+    font-size: 50px;
+}
+.line{
+    border-bottom: 2px solid darkslategray;
+    margin-top: -15px;
+}
+.history{
+    color: darkgray;
+    word-spacing: 3px;
+     
+}
+#accounts .fill{
+    background-color: rgba(0,0,0,1);
+    height: 17vh;
+    color:white;
+    font-size: 2.1em;
+    letter-spacing: 15px;
+    text-align: right;
+    padding-right: 11%;
+    border:1px solid black;
+}
+#accounts .fill div{
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-right: 4%;
+}
+#accounts a{
+    text-decoration: none;
+    cursor:pointer;
+    color:white;
+    
+}
+#accounts a:hover{
+    text-decoration: none;
+    cursor:pointer;
+    color:dodgerblue;
+    transition: 400ms;
+}
+#blog{
+    background-image: url('../images/rb5.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#blog .overlay{
+    background-color:rgba(0,0,0,0.6);
+}
+#blog .row{
+    height: 100vh;
+    display: block;
+    padding-top: 2%;
+    
+}
+#blog .col-md-4{
+    background-color: inherit;
+    color: white;
+    border:1px solid gray;
+    border-radius: 8px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    opacity: 0.3;
+    margin-top: 8px;    
+}
+#blog .col-md-4:hover{
+    opacity: 1;
+    transition: 500ms;
+    background-color: rgba(0,0,0,.8);
+    cursor: pointer;
+}
+#blog .img-fluid{
+    width:30%;
+    height:15vh;
+    border: 0px solid none;
+    border-radius: 50%;
+    
+
+}
+#cv{
+    height: 30vh;
+    background-color: black;
+}
+#cv .blockquote p{
+    color: white !important;
+    text-align: center;
+    margin-top: 6.5%;
+}
+#downloadbutton{
+    padding-left:32px;
+    padding-right:32px;
+}
+#contact{
+    background-image: url('../images/cr1.jpg');
+    background-size:100% 100%;
+    width: 100%;
+    height:25vh;
+}
+#contact .overlay{
+    background-color:rgba(0,0,0,.5);
+    width: 100%;
+    height: 25vh;
+}
+#footerpart{
+    background-color: rgba(0,0,0,.9);
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+}
+#cfooter{
+    color:white;
+    transition: 2000ms;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px; 
+    margin-top: 5px;
+    font-size: 0.70em !important;
+}
+#rcfooter{
+    color:rgba(0,0,0,.0);
+    transition: 2000ms;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px; 
+    margin-top: 5px;
+    font-size: 0.70em !important;
+}
