@@ -4,13 +4,17 @@ function control(){
     var mailbox=document.getElementById("mailbox1").value;
     if (textbox=="" && textarea=="" && mailbox==""){
         alert("Lütfen formdaki boş alanları eksiksiz doldurunuz.");
+        return false;
         } 
     else if ((textbox!="" && textarea!="") && mailbox==""){
         alert("Lütfen formdaki Mail alanını eksiksiz doldurunuz.");
+        return false;
     }
     else if((textbox=="" || textarea=="") && mailbox!=""){
         alert("Lütfen formdaki Ad  Soyad ya da Mesaj alanlarını boş bırakmayınız.");
+        return false;
     }
+    return true;
 }
   
     

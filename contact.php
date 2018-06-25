@@ -32,7 +32,7 @@
                         </div>
                         
                         <div class="col-lg-6 mt-5">
-                            <form>
+                            <form action="#" onsubmit="return control();">
                                 <div class="form-group">
                                     <div class="input-group input-group-lg">
                                     <span class="input-group-addon0">
@@ -63,7 +63,7 @@
                                     <span class="input-group-addon0">
                                     </span>&nbsp;
                                         <div class="buttons">
-                                        <div><input type="submit" value="Gönder" class="btn btn-primary" onclick="control();"></div>
+                                        <div><input type="submit" value="Gönder" class="btn btn-primary" ></div>
                                         <div><input type="reset" value="Temizle" class="btn btn-primary mx-2"></div>
                                         </div>
                                     </div>
