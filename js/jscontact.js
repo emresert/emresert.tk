@@ -19,7 +19,7 @@ function control(){
   
     
   
-/*
+
 window.onload = removeFunc;
 
 function removeFunc(){
@@ -37,4 +37,4 @@ function removeIframe() {
     }
     else
         setTimeout(removeIframe, 500);
-}*/
+}

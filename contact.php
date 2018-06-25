@@ -4,6 +4,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <meta name="keywords" content="EMRE,SERT,ERASMUS,MACARİSTANERASMUS,OFFİCİAL,OFFİCİALWEBSİTE,BİLGİSAYAR">
+      <meta name="description" content="Emre Sert kişisel web adresi.DGS ve Macaristanda Erasmus hakkında bilgi edinebileceğiniz blog.">
       <link rel="stylesheet" href="css/bootstrap.css">
       <link rel="stylesheet" href="css/font-awesome.css">
       <link rel="stylesheet" href="css/style2.css" media="all">
@@ -32,13 +33,13 @@
                         </div>
                         
                         <div class="col-lg-6 mt-5">
-                            <form action="#" onsubmit="return control();">
+                            <form action="/emresert.tk/mail.php" onsubmit="return control();" method="POST">
                                 <div class="form-group">
                                     <div class="input-group input-group-lg">
                                     <span class="input-group-addon0">
                                         &nbsp;<i class="fas fa-user-tie fa-3x"></i>
                                     </span>
-                                        <input class="form-control" type="text" placeholder="Adınız  Soyadınız" id="textbox1">
+                                        <input name="nameSurname"class="form-control" type="text" placeholder="Adınız  Soyadınız" id="textbox1">
                                     </div>
                                 </div>
                                  <div class="form-group">
@@ -46,7 +47,7 @@
                                     <span class="input-group-addon0">
                                         <i class="fas fa-envelope fa-3x"></i>
                                     </span>
-                                      <input class="form-control" type="email" placeholder="Mail Adresiniz" id="mailbox1">
+                                      <input name="email" class="form-control" type="email" placeholder="Mail Adresiniz" id="mailbox1">
                                         
                                     </div>
                                 </div>
@@ -55,7 +56,7 @@
                                     <span class="input-group-addon0">
                                         <i class="fas fa-pencil-alt fa-3x"></i>
                                     </span>
-                                        <textarea class="form-control"  rows="5" placeholder="Mesajınız" id="textarea1"></textarea>
+                                        <textarea name="message" class="form-control"  rows="5" placeholder="Mesajınız" id="textarea1"></textarea>
                                     </div>
                                 </div>
                                 <div class="form-group mx-5">
@@ -74,8 +75,8 @@
                 </div>
                <div class="home"><a href="index.html"><i class="fas fa-home fa-2x"></i>Anasayfaya dönmek için tıklayınız.</a></div>
          </section>
-      <?php
-      ?>
+     
+     
     
     <script src="js/jscontact.js"></script>
     <script src="js/popper.min.js"></script>
