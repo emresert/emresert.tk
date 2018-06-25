@@ -10,7 +10,13 @@
          'X-Mailer: PHP/' . phpversion();
      
      mail($to, $subject, $message, $headers);
-     echo "<br><i><b> Sayın $nameSurname mailiniz başarılı bir şekilde alınmıştır.Anasayfaya yönlendiriliyorsunuz.</b></i>";
-     header("Refresh: 7; url=/");
+     echo "<h3><br><i><b><center> Sayın <u>$nameSurname</u> mailiniz başarılı bir şekilde alınmıştır"."</center></h3></b></i>";
      ?> 
-      
+     <html>
+         <head>
+             <link rel="stylesheet" href="css/font-awesome.css">
+             <body>
+                 <center><a href="index.html" style="text-decoration:none;Cursor:pointer;Color:black;"><i class="fa fa-home fa-2x"></i>Anasayfaya dönmek için tıklayınız.</a></div></center>
+             </body>
+         </head>
+     </html>
